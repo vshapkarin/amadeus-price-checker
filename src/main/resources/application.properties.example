@@ -1,0 +1,15 @@
+spring.application.name=amadeus-price-checker
+
+amadeus.api.client_id=your_client_id
+amadeus.api.client_secret=your_secret
+amadeus.api.token_url=https://test.api.amadeus.com/v1/security/oauth2/token
+amadeus.api.flight_offers_url=https://test.api.amadeus.com/v2/shopping/flight-offers
+
+telegram.bot.token=your_tg_bot_token
+telegram.chat.id=your_tg_chat_id
+
+flight.origin=SVO
+flight.destination=HAN
+flight.departure_date=2024-12-18
+flight.departure_time=2024-12-18T23:15:00
+flight.departure_flight_number=656
